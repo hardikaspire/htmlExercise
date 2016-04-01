@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+}
+header{
+	width:100%;
+	background:#FFF;
+	height:100px;	
+}
+.logo{
+	float: left;
+    width: 35%;
+    padding-left: 120px;
+    height: 100px;
+    padding-top: 20px;
+}
+nav a {
+	text-decoration: none;
+    display: inline-block;
+    height: 100%;
+    padding-top: 60px;
+    font-size: x-large;
+    font-family: sans-serif;
+    padding-left: 80px;
+    color: grey;
+}
+nav{
+    width: 53%;
+    float: right;
+    display: block;
+    height: 100px;
+}
+
+.bullet-text-wrapper{
+	padding-top: 50px;
+	width: 60%;
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.bullet-text-header{    
+	font-size: 30px;
+    font-family: sans-serif;
+    color: gray;
+    text-align: left;
+    padding-left: 100px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 100px;
+    color: gray;
+    line-height: 2;
+    font-family: sans-serif;
+} 
+li {
+	float:left;
+}
+.carosol{
+	background:url(images/HTML--CSS-Exercise_02.gif);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:489px;
+}
+.features{
+    width: 91%;
+    margin: auto;
+    text-align: center;
+}
+.feature-wrapper{
+	width: 30%;
+	float:left;
+    padding: 20px;	
+}
+.feature-content{
+    font-family: sans-serif;
+}
+.feature-header{
+	font-size: 25px;
+	margin-bottom: 5px;
+    color: #4F94F3;
+}
+.feature-description{
+	width: 80%;
+    margin: auto;
+    color: gray;
+}
+.shop-header{
+	font-size: 45px;
+    font-family: sans-serif;
+    color: gray;
+}
+.shop-wrapper{
+	width:40%;
+	float:left;
+	margin-top: 50px;
+}
+.shop-cart{
+    width: 80%;
+    margin: auto;
+    text-align: center;		
+}
+footer{
+	clear: both;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+    color: gray;
+    border-top: 1px solid gray;
+}
